@@ -1,5 +1,6 @@
 import styles from "./header.module.css";
 
+import AboutMe from "../AboutMe/aboutMe";
 export default function Header() {
   return (
     <>
@@ -12,16 +13,24 @@ export default function Header() {
             <div className="col-md-6">
               <div className={styles.header_menu}>
                 <ul className={styles.header_menu_list}>
-                  <li>Home</li>
-                  <li>Sobre Mim</li>
-                  <li>Experiência</li>
-                  <li>Projetos</li>
+                  <li>
+                    <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Home</a>
+                    </li>
+                  <li>
+                    <a href='/' style={{ textDecoration: "none", color: "#FFFFFF"}}>Sobre Mim</a>
+                    </li>
+                  <li>
+                    <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Experiência</a>
+                    </li>
+                  <li>
+                    <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div style={{ height: "1px" , backgroundColor: "#151515" }}></div>
+        <div style={{ height: "1px", backgroundColor: "#151515" }}></div>
       </header>
     </>
   );
