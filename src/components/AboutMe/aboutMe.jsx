@@ -9,7 +9,7 @@ import teste from '../../public/testeD.png'
 export default function AboutMe() {
   return (
     <>
-      <section id={styles.about_me}>
+      <section id='about_me' className={styles.about_me}>
         <div className="container" style={{ marginTop: "50px" }}>
           <div className="row">
             <div

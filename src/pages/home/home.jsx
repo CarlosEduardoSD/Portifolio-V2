@@ -6,6 +6,7 @@ import Header from "../../components/Header/header";
 import AboutMe from "../../components/AboutMe/aboutMe";
 import Experiencies from "../../components/Experiences/experiences";
 import Footer from "../../components/Footer/footer";
+import Projects from "../../components/Projects/projects";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
       </section>
       <AboutMe />
       <Experiencies />
+      <Projects />
       <Footer />
     </>
   );

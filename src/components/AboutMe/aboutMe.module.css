@@ -1,4 +1,5 @@
-#about_me {
+/* #about_me  */
+.about_me {
   background-color: #0e0d0d;
 }
 
@@ -34,6 +35,15 @@
   align-items: center;
   gap: 40px;
   margin: 30px 0;
+}
+
+.about_me_social_links a {
+  transition: .2s;
+}
+
+.about_me_social_links a:hover {
+  transform: translateY(-5px);
+  transition: .2s;
 }
 
 .buttons_about {

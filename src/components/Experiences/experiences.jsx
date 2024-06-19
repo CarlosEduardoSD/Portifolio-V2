@@ -2,7 +2,7 @@ import styles from "./experiences.module.css";
 
 export default function Experiencies() {
   return (
-    <section id={styles.experiences}>
+    <section id='experiences' className={styles.experiences}>
       <div
         className="container"
         style={{ marginTop: "100px", marginBottom: "50px" }}

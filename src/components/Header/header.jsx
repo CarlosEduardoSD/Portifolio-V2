@@ -15,15 +15,15 @@ export default function Header() {
                 <ul className={styles.header_menu_list}>
                   <li>
                     <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Home</a>
-                    </li>
+                  </li>
                   <li>
-                    <a href='/' style={{ textDecoration: "none", color: "#FFFFFF"}}>Sobre Mim</a>
-                    </li>
+                    <a href='#about_me' style={{ textDecoration: "none", color: "#FFFFFF"}}>Sobre Mim</a>
+                  </li>
                   <li>
-                    <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Experiência</a>
-                    </li>
+                    <a href="#experiences" style={{ textDecoration: "none", color: "#FFFFFF"}}>Experiência</a>
+                  </li>
                   <li>
-                    <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
+                    <a href="#projects" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
                   </li>
                 </ul>
               </div>
