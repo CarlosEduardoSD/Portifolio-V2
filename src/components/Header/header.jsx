@@ -4,7 +4,7 @@ import AboutMe from "../AboutMe/aboutMe";
 export default function Header() {
   return (
     <>
-      <header className="container">
+      <header id="header_section" className="container">
         <div className="row">
           <div className={styles.header}>
             <div className="col-md-6">
