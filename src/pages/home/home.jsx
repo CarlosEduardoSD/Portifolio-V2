@@ -2,13 +2,12 @@ import styles from "./home.module.css";
 
 import Perfil from "../../assets/images/Perfil.jpg";
 
-import { FaArrowUp } from "react-icons/fa";
-
 import Header from "../../components/Header/header";
 import AboutMe from "../../components/AboutMe/aboutMe";
 import Experiencies from "../../components/Experiences/experiences.jsx";
 import Footer from "../../components/Footer/footer";
 import Projects from "../../components/Projects/projects.jsx";
+import ButtonScrolling from "../../components/ButtonScrolling/ButtonScrolling.jsx";
 
 export default function Home() {
   return (
@@ -52,11 +51,7 @@ export default function Home() {
       <Experiencies />
       <Projects />
       <Footer />
-      <button className={styles.home_button_top}>
-        <a href="#header_section">
-          <FaArrowUp fontSize={"20px"}/>
-        </a>
-      </button>
+      <ButtonScrolling />
     </>
   );
 }
