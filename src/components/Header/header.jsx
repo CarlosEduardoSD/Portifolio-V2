@@ -1,6 +1,4 @@
 import styles from "./header.module.css";
-
-import AboutMe from "../AboutMe/aboutMe";
 export default function Header() {
   return (
     <>

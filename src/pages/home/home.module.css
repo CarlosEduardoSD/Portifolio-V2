@@ -134,3 +134,10 @@
   z-index: 1;
   /* box-shadow: 0px 0px 60px 1px #BF91F9; */
 }
+
+@media (max-width: 425px) {
+  /* .home_content {
+    display: flex;
+    flex-direction: column-reverse;
+  } */
+}

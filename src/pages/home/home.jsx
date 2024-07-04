@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section id='home' className={styles.home}>
+      <section id="home" className={styles.home}>
         <div className="container">
           <div className="row">
             <div
