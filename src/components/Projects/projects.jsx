@@ -13,7 +13,7 @@ export default function Projects() {
             <h2 className={styles.title_section}>Projetos</h2>
           </div>
         </div>
-        <div className="row" style={{ margin: "40px 0 100px 0" }}>
+        <div className="row" style={{ marginTop: "40px" }}>
           <div className="col-md-6">
             <CardProjects 
               imgProject={projects[0].imagem}

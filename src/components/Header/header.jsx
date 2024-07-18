@@ -21,7 +21,7 @@ export default function Header() {
                     <a href="#experiences" style={{ textDecoration: "none", color: "#FFFFFF"}}>Experiência</a>
                   </li>
                   <li>
-                    <a href="#projects" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
+                    <a href="/projetos" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
                   </li>
                 </ul>
               </div>
