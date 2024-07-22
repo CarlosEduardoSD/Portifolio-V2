@@ -1,5 +1,11 @@
 import styles from "./header.module.css";
+import { useState } from "react";
 export default function Header() {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  }
   return (
     <>
       <header id="header_section" className="container">
@@ -10,7 +16,8 @@ export default function Header() {
             </div>
             <div className="col-md-6">
               <div className={styles.header_menu}>
-                <ul className={styles.header_menu_list}>
+                <button className={styles.hambuger_button} onClick={toggleMenu}>☰</button>
+                <ul className={`${styles.header_menu_list} ${showMenu ? styles.active : ""}`}>
                   <li>
                     <a href="/" style={{ textDecoration: "none", color: "#FFFFFF"}}>Home</a>
                   </li>
@@ -21,7 +28,7 @@ export default function Header() {
                     <a href="#experiences" style={{ textDecoration: "none", color: "#FFFFFF"}}>Experiência</a>
                   </li>
                   <li>
-                    <a href="/projetos" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
+                    <a href="#projects" style={{ textDecoration: "none", color: "#FFFFFF"}}>Projetos</a>
                   </li>
                 </ul>
               </div>
